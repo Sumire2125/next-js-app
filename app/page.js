@@ -1,17 +1,3 @@
-// app/layout.tsx
-export const metadata = {
-  title: "Sumireのポートフォリオ",
-  description: "Sumireの作品と人となりをまとめたポートフォリオサイトです。",
-};
-
-export default function RootLayout({ children }) {
-  return (
-    <html lang="ja">
-      <body>{children}</body>
-    </html>
-  );
-}
-
 export default function Home() {
     return (
         <>
