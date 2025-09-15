@@ -3,8 +3,8 @@ export default function Home() {
         <>
             <div class="container">
                 <header aria-label="サイトヘッダー">
-                    <div class="brand">
-                        <div class="logo" aria-hidden="true">
+                    <div className="brand">
+                        <div className="logo" aria-hidden="true">
                             {/* ミニチーズアイコン */}
                             <svg viewBox="0 0 64 64" role="img" aria-label="Cheese icon">
                                 <path d="M6 26c14-8 28-12 52-12v26c0 4-3 8-8 8H14c-4 0-8-4-8-8V26z" fill="#ffde59" />
