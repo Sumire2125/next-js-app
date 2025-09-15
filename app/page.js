@@ -1,7 +1,7 @@
 export default function Home() {
     return (
         <>
-            <div class="container">
+            <div className="container">
                 <header aria-label="サイトヘッダー">
                     <div className="brand">
                         <div className="logo" aria-hidden="true">
@@ -26,21 +26,21 @@ export default function Home() {
                 </header>
 
                 <main>
-                    <section class="hero" aria-labelledby="hero-title">
-                        <div class="panel">
-                            <span class="badge">Sumireのポートフォリオサイトです</span>
+                    <section className="hero" aria-labelledby="hero-title">
+                        <div className="panel">
+                            <span className="badge">Sumireのポートフォリオサイトです</span>
                             <h2 id="hero-title">私の作品と人となりをまとめていきます！まだ何もないけど！
                             </h2>
                             <p>
                                 ポートフォリオを載せていく。予定。
                             </p>
-                            <div class="actions">
-                                <a class="btn primary" href="#works">作品を見る</a>
-                                <a class="btn" href="#about">自己紹介</a>
+                            <div className="actions">
+                                <a className="btn primary" href="#works">作品を見る</a>
+                                <a className="btn" href="#about">自己紹介</a>
                             </div>
                         </div>
 
-                        <div class="cheese-card" aria-hidden="true">
+                        <div className="cheese-card" aria-hidden="true">
                             <img
                                 src="/images/ポートフォリオ用_背景透過.png"
                                 alt="私のイラスト"
@@ -51,44 +51,44 @@ export default function Home() {
 
                     <section id="works" aria-labelledby="works-title">
                         <h2 id="works-title">Works</h2>
-                        <div class="grid" role="list">
-                            <article class="card" role="listitem">
-                                <span class="tag">Java / Training</span>
+                        <div className="grid" role="list">
+                            <article className="card" role="listitem">
+                                <span className="tag">Java / Training</span>
                                 <h3>自慢</h3>
-                                <p class="muted">チーズが好きすぎて常に家にチーズがある</p>
-                                <a class="btn" href="#" aria-label="チーズ好きへの詳細へ">詳細をみる</a>
+                                <p className="muted">チーズが好きすぎて常に家にチーズがある</p>
+                                <a className="btn" href="#" aria-label="チーズ好きへの詳細へ">詳細をみる</a>
                             </article>
-                            <article class="card" role="listitem">
-                                <span class="tag">Web</span>
+                            <article className="card" role="listitem">
+                                <span className="tag">Web</span>
                                 <h3>Next.jsを試してみた</h3>
-                                <p class="muted">可愛い後輩にNext.jsをお勧めされたので頑張って試した</p>
-                                <a class="btn" href="#" aria-label="認証サンプルの詳細へ">詳細をみる</a>
+                                <p className="muted">可愛い後輩にNext.jsをお勧めされたので頑張って試した</p>
+                                <a className="btn" href="#" aria-label="認証サンプルの詳細へ">詳細をみる</a>
                             </article>
-                            <article class="card" role="listitem">
-                                <span class="tag">Note</span>
+                            <article className="card" role="listitem">
+                                <span className="tag">Note</span>
                                 <h3>イラスト自慢</h3>
-                                <p class="muted">ゆるい絵を使って活躍できるかもしれない。</p>
-                                <a class="btn" href="#" aria-label="イラスト自慢の詳細へ">詳細をみる</a>
+                                <p className="muted">ゆるい絵を使って活躍できるかもしれない。</p>
+                                <a className="btn" href="#" aria-label="イラスト自慢の詳細へ">詳細をみる</a>
                             </article>
                         </div>
                     </section>
 
                     <section id="about" aria-labelledby="about-title">
                         <h2 id="about-title">About</h2>
-                        <div class="panel">
+                        <div className="panel">
                             <p>
                                 教育系のSEやってます。漫画やイラストも描いてます。
                             </p>
-                            <p class="muted">好きなもの：チーズ</p>
+                            <p className="muted">好きなもの：チーズ</p>
                         </div>
                     </section>
 
                     <section id="contact" aria-labelledby="contact-title">
                         <h2 id="contact-title">Contact</h2>
-                        <div class="panel">
-                            <div class="actions">
-                                <a class="btn" href="https://github.com/Sumire2125/" aria-label="GitHubへ">GitHub</a>
-                                <a class="btn" href="https://x.com/Sumirecheese" aria-label="Xへ">X</a>
+                        <div className="panel">
+                            <div className="actions">
+                                <a className="btn" href="https://github.com/Sumire2125/" aria-label="GitHubへ">GitHub</a>
+                                <a className="btn" href="https://x.com/Sumirecheese" aria-label="Xへ">X</a>
                             </div>
                         </div>
                     </section>
