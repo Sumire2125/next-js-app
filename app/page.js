@@ -61,12 +61,6 @@ export default function Home() {
                                 <a className="btn" href="#" aria-label="チーズ好きへの詳細へ">詳細をみる</a>
                             </article>
                             <article className="card" role="listitem">
-                                <span className="tag">Web</span>
-                                <h3>Next.jsを試してみた</h3>
-                                <p className="muted">可愛い後輩にNext.jsをお勧めされたので頑張って試した</p>
-                                <a className="btn" href="#" aria-label="認証サンプルの詳細へ">詳細をみる</a>
-                            </article>
-                            <article className="card" role="listitem">
                                 <span className="tag">Note</span>
                                 <h3>イラスト自慢</h3>
                                 <p className="muted">ゆるい絵を使って活躍できるかもしれない。</p>
