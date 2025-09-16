@@ -268,3 +268,44 @@
     button {
         outline-color: var(--ring)
     }
+
+    /* 作ったもの一覧セクション */
+    .samples {
+        margin-top: 40px;
+    }
+
+    /* パネル風の白背景 */
+    .samples-panel {
+        background: #fff;
+        border-radius: 18px;
+        padding: 20px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    }
+
+    /* リストスタイルをリセット */
+    .samples-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        line-height: 2;
+    }
+
+    /* リンクを可愛いタグ風に */
+    .samples-list a {
+        display: inline-block;
+        padding: 6px 12px;
+        margin: 4px 0;
+        background: #fff6c9;
+        /* チーズ色 */
+        border-radius: 12px;
+        color: #3c2a12;
+        font-weight: 500;
+        text-decoration: none;
+        transition: background 0.2s, color 0.2s;
+    }
+
+    /* ホバー時のアニメーション */
+    .samples-list a:hover {
+        background: #f5c63a;
+        color: #fff;
+    }

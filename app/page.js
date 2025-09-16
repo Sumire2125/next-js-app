@@ -82,6 +82,15 @@ export default function Home() {
                             <p className="muted">好きなもの：チーズ</p>
                         </div>
                     </section>
+                    <section id="samples" className="samples">
+                        <h2>Playground</h2>
+                        <div className="samples-panel">
+                            <ul className="samples-list">
+                                <li>🐶 <a href="/samples/dog">犬ジェネレーター</a></li>
+                                <li>🔢 <a href="/samples/counter">カウンターアプリ</a></li>
+                            </ul>
+                        </div>
+                    </section>
 
                     <section id="contact" aria-labelledby="contact-title">
                         <h2 id="contact-title">Contact</h2>
