@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
     return (
         <>
@@ -86,8 +88,8 @@ export default function Home() {
                         <h2>Playground</h2>
                         <div className="samples-panel">
                             <ul className="samples-list">
-                                <li>🐶 <a href="/samples/dog">犬ジェネレーター</a></li>
-                                <li>🔢 <a href="/samples/counter">カウンターアプリ</a></li>
+                                <li>🐶 <Link href="/samples/dog">犬ジェネレーター</Link></li>
+                                <li>🔢 <Link href="/samples/counter">カウンターアプリ</Link></li>
                             </ul>
                         </div>
                     </section>

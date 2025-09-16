@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import Link from "next/link"; 
+import Link from "next/link";
 
 export default function DogPage() {
   const [dogUrl, setDogUrl] = useState(null);
@@ -64,29 +64,28 @@ export default function DogPage() {
               style={{ maxWidth: "100%", borderRadius: "12px" }}
             />
           </div>
-
-          {/* カードの下にリンク */}
-          <p style={{ marginTop: "20px" }}>
-            <Link
-              href="/"
-              style={{
-                display: "inline-block",
-                padding: "8px 16px",
-                borderRadius: "12px",
-                background: "#f5c63a",
-                color: "#3c2a12",
-                fontWeight: "bold",
-                textDecoration: "none",
-                boxShadow: "0 4px 8px rgba(0,0,0,.1)",
-              }}
-            >
-              ← トップに戻る
-            </Link>
-          </p>
         </>
       )}
-      
+      {/* カードの下にリンク */}
+      <p style={{ marginTop: "20px" }}>
+        <Link
+          href="/"
+          style={{
+            display: "inline-block",
+            padding: "8px 16px",
+            borderRadius: "12px",
+            background: "#f5c63a",
+            color: "#3c2a12",
+            fontWeight: "bold",
+            textDecoration: "none",
+            boxShadow: "0 4px 8px rgba(0,0,0,.1)",
+          }}
+        >
+          ← トップに戻る
+        </Link>
+      </p>
+
     </div>
-    
+
   );
 }
