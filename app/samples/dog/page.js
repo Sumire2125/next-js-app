@@ -144,8 +144,5 @@ export default function DogPage() {
         <Link href="/" className="dog-link">← トップに戻る</Link>
       </p>
     </div>
-
-
-
   );
 }
