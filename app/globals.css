@@ -309,3 +309,62 @@
         background: #f5c63a;
         color: #fff;
     }
+
+    /* globals.css */
+    .dog-page {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(135deg, #fff6c9, #ffe6d9);
+        font-family: 'Zen Kaku Gothic New', sans-serif;
+    }
+
+    .dog-title {
+        margin-bottom: 20px;
+        color: #3c2a12;
+    }
+
+    .dog-button {
+        padding: 12px 24px;
+        border-radius: 25px;
+        border: none;
+        background: #f5c63a;
+        color: #3c2a12;
+        font-weight: bold;
+        font-size: 1rem;
+        cursor: pointer;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, .15);
+        transition: background .2s;
+    }
+
+    .dog-button:hover {
+        background: #fbd859;
+    }
+
+    .dog-card {
+        margin-top: 20px;
+        padding: 20px;
+        border-radius: 16px;
+        background: white;
+        display: inline-block;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, .15);
+    }
+
+    .dog-img {
+        max-width: 100%;
+        border-radius: 12px;
+    }
+
+    .dog-link {
+        display: inline-block;
+        padding: 8px 16px;
+        margin-top: 20px;
+        border-radius: 12px;
+        background: #f5c63a;
+        color: #3c2a12;
+        font-weight: bold;
+        text-decoration: none;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
+    }
