@@ -58,13 +58,13 @@ export default function Home() {
                                 <span className="tag">Java / Training</span>
                                 <h3>自慢</h3>
                                 <p className="muted">チーズが好きすぎて常に家にチーズがある</p>
-                                <a className="btn" href="#" aria-label="チーズ好きへの詳細へ">詳細をみる</a>
+                                <a className="btn" href="#" aria-label="チーズ好きへの詳細へ">詳細をみる　※まだない</a>
                             </article>
                             <article className="card" role="listitem">
                                 <span className="tag">Note</span>
                                 <h3>イラスト自慢</h3>
                                 <p className="muted">ゆるい絵を使って活躍できるかもしれない。</p>
-                                <a className="btn" href="#" aria-label="イラスト自慢の詳細へ">詳細をみる</a>
+                                <a className="btn" href="#" aria-label="イラスト自慢の詳細へ">詳細をみる　※やはりまだない</a>
                             </article>
                         </div>
                     </section>
