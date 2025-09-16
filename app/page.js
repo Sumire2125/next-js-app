@@ -88,7 +88,7 @@ export default function Home() {
                         <h2>Playground</h2>
                         <div className="samples-panel">
                             <ul className="samples-list">
-                                <li>🐶 <Link href="/samples/dog">犬ジェネレーター</Link></li>
+                                <li>🐶 <Link href="/samples/dog">🐾 わんこヒーリングルーム 🐾</Link></li>
                                 <li>🔢 <Link href="/samples/counter">カウンターアプリ</Link></li>
                             </ul>
                         </div>
