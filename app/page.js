@@ -84,6 +84,7 @@ export default function Home() {
                             <ul className="samples-list">
                                 <li>🐶 <Link href="/samples/dog">🐾 わんこヒーリングルーム 🐾</Link></li>
                                 <li>🔢 <Link href="/samples/counter">カウンターアプリ</Link></li>
+                                <li>📝 <a href="/samples/todo">Todoアプリ</a></li>
                             </ul>
                         </div>
                     </section>

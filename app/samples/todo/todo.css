@@ -1,0 +1,60 @@
+/* app/samples/todo/todo.css */
+
+/* 全体 */
+.todo-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2rem;
+  background: linear-gradient(135deg, #fff6c9, #ffe6d9);
+  font-family: "Zen Kaku Gothic New", sans-serif;
+}
+
+/* 見出し */
+.todo-container h1 {
+  margin-bottom: 0.5rem;
+  color: #3c2a12;
+  font-size: 2rem;
+}
+
+.todo-container p {
+  color: #5a4632;
+  margin-bottom: 1.5rem;
+}
+
+/* カード風の枠 */
+.todo-card {
+  padding: 20px;
+  border-radius: 16px;
+  background: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+/* GIF画像 */
+.todo-card img {
+  max-width: 100%;
+  border-radius: 12px;
+}
+
+/* GitHubリンク */
+.todo-container .github-link {
+  margin-top: 1.5rem;
+  display: inline-block;
+  padding: 10px 16px;
+  border-radius: 12px;
+  background: #f5c63a;
+  color: #3c2a12;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background 0.2s;
+}
+
+.todo-container .github-link:hover {
+  background: #fbd859;
+}
