@@ -93,7 +93,7 @@ export default function Home() {
                         <div className="panel">
                             <div className="actions">
                                 <a className="btn" href="https://github.com/Sumire2125/" aria-label="GitHubへ">GitHub</a>
-                                <a className="btn" href="https://x.com/Sumirecheese" aria-label="Xへ">X</a>
+                                {/* <a className="btn" href="https://x.com/Sumirecheese" aria-label="Xへ">X</a> */}
                             </div>
                         </div>
                     </section>
