@@ -85,6 +85,7 @@ export default function Home() {
                                 <li>🐶 <Link href="/samples/dog">🐾 わんこヒーリングルーム 🐾</Link></li>
                                 <li>🔢 <Link href="/samples/counter">カウンターアプリ</Link></li>
                                 <li>📝 <a href="/samples/todo">Todoアプリ</a></li>
+                                <li>🧀 <a href="/samples/chi-chat">ちーちゃんに話しかける</a></li>
                             </ul>
                         </div>
                     </section>
