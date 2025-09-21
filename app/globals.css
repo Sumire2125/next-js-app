@@ -391,3 +391,84 @@
         border-style: solid;
         border-color: #fff6c9 transparent transparent transparent;
     }
+
+    /* ハンバーガーボタン */
+    .nav-toggle {
+        display: none;
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 8px;
+        margin-left: auto;
+    }
+
+    .hamburger {
+        display: block;
+        width: 28px;
+        height: 3px;
+        background: var(--cheese-500);
+        position: relative;
+        border-radius: 2px;
+    }
+
+    .hamburger::before,
+    .hamburger::after {
+        content: "";
+        display: block;
+        width: 28px;
+        height: 3px;
+        background: var(--cheese-500);
+        position: absolute;
+        border-radius: 2px;
+        transition: 0.2s;
+    }
+
+    .hamburger::before {
+        top: -9px;
+    }
+
+    .hamburger::after {
+        top: 9px;
+    }
+
+    /* スマホ幅でナビを隠す・ボタンを出す */
+    @media (max-width: 640px) {
+        nav[aria-label="グローバルナビ"] {
+            display: none;
+            position: absolute;
+            top: 60px;
+            right: 16px;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+            flex-direction: column;
+            gap: 0;
+            padding: 12px 0;
+            min-width: 120px;
+            z-index: 100;
+        }
+
+        nav.open {
+            display: flex;
+        }
+
+        .nav-toggle {
+            display: block;
+        }
+
+        header {
+            position: relative;
+        }
+
+        nav[aria-label="グローバルナビ"] a {
+            display: block;
+            padding: 12px 24px;
+            margin: 0;
+            border-radius: 0;
+            border-bottom: 1px solid #f5c63a;
+        }
+
+        nav[aria-label="グローバルナビ"] a:last-child {
+            border-bottom: none;
+        }
+    }

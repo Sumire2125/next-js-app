@@ -1,6 +1,9 @@
+"use client";
 import Link from "next/link";
+import { useState } from "react";
 
 export default function Home() {
+        const [navOpen, setNavOpen] = useState(false);
     return (
         <>
             <div className="container">
@@ -20,10 +23,22 @@ export default function Home() {
                         </div>
                         <h1>Sumire Portfolio</h1>
                     </div>
-                    <nav aria-label="グローバルナビ">
+                      {/* ハンバーガーボタン */}
+                    <button
+                        className="nav-toggle"
+                        aria-label="メニューを開く"
+                        onClick={() => setNavOpen(!navOpen)}
+                    >
+                        <span className="hamburger"></span>
+                    </button>
+                    <nav
+                        aria-label="グローバルナビ"
+                        className={navOpen ? "open" : ""}
+                    >
                         <a href="#works">Works</a>
                         <a href="#about">About</a>
                         <a href="#contact">Contact</a>
+                        <a href="#Playground">Playground</a>
                     </nav>
                 </header>
 
@@ -78,14 +93,14 @@ export default function Home() {
                             <p className="muted">好きなもの：チーズ</p>
                         </div>
                     </section>
-                    <section id="samples" className="samples">
+                    <section id="Playground" className="samples">
                         <h2>Playground</h2>
                         <div className="samples-panel">
                             <ul className="samples-list">
                                 <li>🐶 <Link href="/samples/dog">🐾 わんこヒーリングルーム 🐾</Link></li>
                                 <li>🔢 <Link href="/samples/counter">カウンターアプリ</Link></li>
-                                <li>📝 <a href="/samples/todo">Todoアプリ</a></li>
-                                <li>🧀 <a href="/samples/chi-chat">ちーちゃんに話しかける</a></li>
+                                <li>📝 <Link href="/samples/todo">Todoアプリ</Link></li>
+                                <li>🧀 <Link href="/samples/chi-chat">ちーちゃんに話しかける</Link></li>
                             </ul>
                         </div>
                     </section>
